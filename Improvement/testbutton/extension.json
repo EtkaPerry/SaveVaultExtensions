@@ -1,0 +1,17 @@
+{
+  "id": "com.savevault.test",
+  "name": "Test Button",
+  "description": "Adds a test button next to the Tools button",
+  "version": "1.0.0",
+  "author": "Save Vault Team",
+  "type": "UI",
+  "files": ["index.html", "styles.css", "script.js"],
+  "permissions": [
+    {
+      "name": "ui.modify",
+      "description": "Modify application UI",
+      "level": "Low",
+      "isRequired": true
+    }
+  ]
+}
