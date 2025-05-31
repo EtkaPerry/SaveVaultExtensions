@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Space Theme</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <div class="container">
+        <div class="stars"></div>
+        <div class="stars2"></div>
+        <div class="stars3"></div>
+        
+        <header>
+            <h1>Space Theme</h1>
+            <p>A cosmic journey through the stars</p>
+        </header>
+        
+        <div class="theme-preview">
+            <div class="planet"></div>
+            <div class="preview-window">
+                <div class="preview-header">Preview</div>
+                <div class="preview-content">
+                    <div class="preview-card">
+                        <h3>SaveVault</h3>
+                        <p>This is how your application will look with the Space Theme applied.</p>
+                        <button class="preview-button">Sample Button</button>
+                    </div>
+                    
+                    <div class="preview-card">
+                        <h3>Cosmic Colors</h3>
+                        <div class="color-samples">
+                            <div class="color-sample primary" title="Primary Color"></div>
+                            <div class="color-sample secondary" title="Secondary Color"></div>
+                            <div class="color-sample accent" title="Accent Color"></div>
+                            <div class="color-sample background" title="Background Color"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="theme-controls">
+            <h2>Theme Settings</h2>
+            
+            <div class="setting">
+                <label for="primaryColor">Primary Color:</label>
+                <input type="color" id="primaryColor" value="#1a1a2e">
+            </div>
+            
+            <div class="setting">
+                <label for="secondaryColor">Secondary Color:</label>
+                <input type="color" id="secondaryColor" value="#4b0082">
+            </div>
+            
+            <div class="setting">
+                <label for="accentColor">Accent Color:</label>
+                <input type="color" id="accentColor" value="#9370db">
+            </div>
+            
+            <div class="setting">
+                <label for="backgroundColor">Background Color:</label>
+                <input type="color" id="backgroundColor" value="#0a0a1a">
+            </div>
+            
+            <div class="setting">
+                <label for="textColor">Text Color:</label>
+                <input type="color" id="textColor" value="#e6e6fa">
+            </div>
+            
+            <div class="setting">
+                <label for="animation">Enable Animation:</label>
+                <input type="checkbox" id="animation" checked>
+            </div>
+            
+            <div class="buttons">
+                <button id="applyTheme">Apply Theme</button>
+                <button id="saveTheme">Save as Default</button>
+                <button id="resetTheme">Reset to Default</button>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Space Theme v1.0.0 | Created by SaveVault</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
