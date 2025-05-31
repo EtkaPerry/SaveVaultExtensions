@@ -1,0 +1,179 @@
+/* Turkish Translation Extension Styles */
+body {
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(135deg, #1e1e1e 0%, #2d2d2d 100%);
+    color: #ffffff;
+    min-height: 100vh;
+    transition: all 0.3s ease;
+}
+
+body.light-theme {
+    background: linear-gradient(135deg, #f0f0f0 0%, #e0e0e0 100%);
+    color: #333333;
+}
+
+.extension-container {
+    max-width: 700px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.light-theme .extension-container {
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #e52d27;  /* Turkish flag red */
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.light-theme h1 {
+    color: #e52d27;
+}
+
+h2 {
+    color: #e52d27;
+    margin-bottom: 15px;
+    font-size: 1.3em;
+}
+
+.light-theme h2 {
+    color: #e52d27;
+}
+
+p {
+    text-align: center;
+    color: #cccccc;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.light-theme p {
+    color: #555555;
+}
+
+.button-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin: 30px 0;
+    flex-wrap: wrap;
+}
+
+.apply-button, .theme-button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 120px;
+}
+
+.apply-button {
+    background: linear-gradient(45deg, #e52d27, #b31217);
+    color: white;
+}
+
+.apply-button:hover {
+    background: linear-gradient(45deg, #b31217, #870e0b);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(229, 45, 39, 0.3);
+}
+
+.theme-button {
+    background: linear-gradient(45deg, #2196F3, #1e88e5);
+    color: white;
+}
+
+.theme-button:hover {
+    background: linear-gradient(45deg, #1e88e5, #1976d2);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(33, 150, 243, 0.3);
+}
+
+.output {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 8px;
+    margin: 20px 0;
+    text-align: center;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.light-theme .output {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.info-section, .features-section, .translation-section {
+    margin-top: 30px;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.light-theme .info-section,
+.light-theme .features-section,
+.light-theme .translation-section {
+    background: rgba(0, 0, 0, 0.03);
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.translation-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.translation-table th,
+.translation-table td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    text-align: left;
+}
+
+.light-theme .translation-table th,
+.light-theme .translation-table td {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.translation-table th {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.light-theme .translation-table th {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.translation-table tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.light-theme .translation-table tr:nth-child(even) {
+    background: rgba(0, 0, 0, 0.02);
+}
