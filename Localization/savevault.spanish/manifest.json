@@ -1,0 +1,16 @@
+{
+  "id": "savevault.spanish",
+  "name": "Spanish Language Pack",
+  "version": "1.0.0",
+  "description": "Adds Spanish (Español) language support to SaveVault. This extension provides complete Spanish translations for the application interface.",
+  "author": "SaveVault Community",
+  "category": "Localization",
+  "icon": "logo.png",
+  "main": "main.lua",
+  "minimumVersion": "0.2.8",
+  "tags": ["language", "localization", "spanish", "español", "translation"],
+  "createdDate": "2025-06-05T00:00:00Z",
+  "updatedDate": "2025-06-05T00:00:00Z",
+  "downloadCount": 0,
+  "rating": 5.0
+}
